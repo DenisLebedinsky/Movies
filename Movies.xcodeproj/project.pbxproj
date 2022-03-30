@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C79765527F46AA100115A0A /* BubbleTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79765427F46AA100115A0A /* BubbleTabBar.swift */; };
+		7C79765727F46ACB00115A0A /* CBTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79765627F46ACB00115A0A /* CBTabBarButton.swift */; };
+		7C79765927F46BB700115A0A /* BubbleTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C79765827F46BB700115A0A /* BubbleTabBarController.swift */; };
 		7CDF4F0327F0BD8D009156EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF4F0227F0BD8D009156EA /* AppDelegate.swift */; };
 		7CDF4F0527F0BD8D009156EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF4F0427F0BD8D009156EA /* SceneDelegate.swift */; };
 		7CDF4F0D27F0BD8D009156EA /* Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF4F0B27F0BD8D009156EA /* Movies.xcdatamodeld */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C79765427F46AA100115A0A /* BubbleTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTabBar.swift; sourceTree = "<group>"; };
+		7C79765627F46ACB00115A0A /* CBTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBTabBarButton.swift; sourceTree = "<group>"; };
+		7C79765827F46BB700115A0A /* BubbleTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTabBarController.swift; sourceTree = "<group>"; };
 		7CDF4EFF27F0BD8D009156EA /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDF4F0227F0BD8D009156EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CDF4F0427F0BD8D009156EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C79765327F46A7A00115A0A /* BubbleTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7C79765427F46AA100115A0A /* BubbleTabBar.swift */,
+				7C79765627F46ACB00115A0A /* CBTabBarButton.swift */,
+				7C79765827F46BB700115A0A /* BubbleTabBarController.swift */,
+			);
+			path = BubbleTabBar;
+			sourceTree = "<group>";
+		};
 		7CDF4EF627F0BD8D009156EA = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +104,7 @@
 		7CDF4F1B27F0C299009156EA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7C79765327F46A7A00115A0A /* BubbleTabBar */,
 				7CDF4F2227F0D0D1009156EA /* Watching */,
 				7CDF4F2127F0D03B009156EA /* Profile */,
 				7CDF4F2027F0D032009156EA /* Home */,
@@ -212,6 +229,9 @@
 			files = (
 				7CDF4F0327F0BD8D009156EA /* AppDelegate.swift in Sources */,
 				7CDF4F1F27F0C334009156EA /* MainTabBarController.swift in Sources */,
+				7C79765527F46AA100115A0A /* BubbleTabBar.swift in Sources */,
+				7C79765927F46BB700115A0A /* BubbleTabBarController.swift in Sources */,
+				7C79765727F46ACB00115A0A /* CBTabBarButton.swift in Sources */,
 				7CDF4F0D27F0BD8D009156EA /* Movies.xcdatamodeld in Sources */,
 				7CDF4F2627F0D118009156EA /* WatchingViewController.swift in Sources */,
 				7CDF4F2827F0D13F009156EA /* ProfileViewController.swift in Sources */,
