@@ -11,6 +11,7 @@ import UIKit
 class MainTabBarController: BubbleTabBarController {
     
     var customTabBarView = UIView(frame: .zero)
+    var navigationBarView = UIView(frame: .zero)
     
     // MARK: View lifecycle
     
@@ -18,6 +19,7 @@ class MainTabBarController: BubbleTabBarController {
         super.viewDidLoad()
          
         setupTabBar()
+        
     }
     
     override func viewDidLayoutSubviews() {
@@ -29,6 +31,8 @@ class MainTabBarController: BubbleTabBarController {
             let WatchingController = createNavController(vc: WatchingViewController(), itemName: "Watching", ItemImage: "eye.circle.fill")
             let ProfileController = createNavController(vc: ProfileViewController(), itemName: "Profile", ItemImage: "person.crop.circle.fill")
             viewControllers = [HomeController, WatchingController, ProfileController]
+        
+        
         }
     
     private func createNavController(vc: UIViewController, itemName: String, ItemImage: String) -> UINavigationController {
