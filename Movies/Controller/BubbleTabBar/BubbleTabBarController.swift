@@ -66,7 +66,7 @@ open class BubbleTabBarController: UITabBarController {
     private func updateTabBarFrame() {
         var tabFrame = self.tabBar.frame
         tabFrame.size.height = barHeight
-        tabFrame.origin.y = self.view.frame.size.height - barHeight
+        tabFrame.origin.y  = self.view.frame.size.height
         self.tabBar.frame = tabFrame
         tabBar.setNeedsLayout()
     }

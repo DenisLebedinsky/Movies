@@ -15,7 +15,7 @@ class LogoView: UIView {
         label.text = "Mov"
         label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont(name: "AvenirNext-Bold", size: 30)
+        label.font = UIFont(name: "MarkerFelt-Wide", size: 30)
         
         return label
     }()
@@ -24,7 +24,7 @@ class LogoView: UIView {
         let label = UILabel()
         label.text = "ies"
         label.textColor = .systemPink
-        label.font = UIFont(name: "AvenirNext-Bold", size: 30)
+        label.font = UIFont(name: "MarkerFelt-Wide", size: 30)
         label.translatesAutoresizingMaskIntoConstraints = false
     
         return label
